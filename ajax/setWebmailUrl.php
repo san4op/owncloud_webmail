@@ -19,7 +19,7 @@ if (!($_POST['webmail_url'] == '' || strpos($_POST['webmail_url'], 'http://') ==
 	OC_JSON::error(
 		array(
 			"data" => array(
-				"message" => $l->t('Please enter valid webmail url - it have to start with http://, https:// or /')
+				"message" => $l->t('Please enter valid webmail URL!')
 			)
 		)
 	);
@@ -35,7 +35,7 @@ if ($_POST['webmail_url'] == '') {
 OC_JSON::success(
 	array(
 		"data" => array(
-			"message" => $l->t("Webmail URL saved")
+			"message" => $l->t("Webmail URL saved!")
 		)
 	)
 );
