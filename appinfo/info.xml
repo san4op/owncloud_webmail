@@ -2,12 +2,15 @@
 <info>
     <id>webmail</id>
     <name>WebMail</name>
-    <description>Create link to webmail</description>
+    <description>OwnCloud app to add button to open webmail.</description>
     <licence>AGPL</licence>
     <author>Alexander Pushkin</author>
     <version>0.0.1</version>
     <namespace>WebMail</namespace>
     <category>other</category>
+    <website>https://github.com/san4op/owncloud_webmail</website>
+    <bugs>https://github.com/san4op/owncloud_webmail/issues</bugs>
+    <repository type="git">https://github.com/san4op/owncloud_webmail.git</repository>
     <dependencies>
         <owncloud min-version="9.1" max-version="9.1" />
     </dependencies>
