@@ -1,3 +1,2 @@
 # Authors
-* Alexander Pushkin: <pushkinas@admsov.ru>
-
+* Alexander Pushkin: <san4op@icloud.com>
